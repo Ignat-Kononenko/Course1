@@ -1,0 +1,23 @@
+﻿Сборка начата 25.12.2023 23:43:00.
+Уровень детализации журнала: Normal.     1>Проект "D:\лабы\c++\лаб. 15 c++\Project1\Project2\Project2.vcxproj" в узле 2 (целевые объекты Rebuild).
+     1>_PrepareForClean:
+         Файл "x64\Debug\Project2.tlog\Project2.lastbuildstate" удаляется.
+       InitializeBuildStatus:
+         Создание "x64\Debug\Project2.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\Project2.tlog\unsuccessfulbuild".
+       ClCompile:
+         D:\Новая папка (2)\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Source2.cpp
+         Source2.cpp
+       Link:
+         D:\Новая папка (2)\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\лабы\c++\лаб. 15 c++\Project1\x64\Debug\Project2.exe" /INCREMENTAL /ILK:"x64\Debug\Project2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\лабы\c++\лаб. 15 c++\Project1\x64\Debug\Project2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\лабы\c++\лаб. 15 c++\Project1\x64\Debug\Project2.lib" /MACHINE:X64 x64\Debug\Source2.obj
+         Project2.vcxproj -> D:\лабы\c++\лаб. 15 c++\Project1\x64\Debug\Project2.exe
+       FinalizeBuildStatus:
+         Файл "x64\Debug\Project2.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "x64\Debug\Project2.tlog\Project2.lastbuildstate".
+     1>Сборка проекта "D:\лабы\c++\лаб. 15 c++\Project1\Project2\Project2.vcxproj" завершена (целевые объекты Rebuild).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:01.79
