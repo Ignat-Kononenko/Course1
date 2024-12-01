@@ -1,0 +1,31 @@
+﻿Сборка начата 14.12.2023 01:21:01.
+Уровень детализации журнала: Normal.     1>Проект "D:\лабы\c++\лаб. 14 c++\Project1\Project4\Project4.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "x64\Debug\Project4.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\Project4.tlog\unsuccessfulbuild".
+       ClCompile:
+         D:\Новая папка (2)\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt test6.cpp
+         test6.cpp
+     1>D:\лабы\c++\лаб. 14 c++\Project1\Project4\test6.cpp(39,35): error C7664: ">": упорядоченное сравнение указателя и целочисленного нуля ("int *" и "int")
+     1>D:\лабы\c++\лаб. 14 c++\Project1\Project4\test6.cpp(40,14): error C2297: "*=": недопустимо, поскольку тип правого операнда — "int *"
+     1>D:\лабы\c++\лаб. 14 c++\Project1\Project4\test6.cpp(60,9): error C2297: "+=": недопустимо, поскольку тип правого операнда — "int *"
+     1>D:\лабы\c++\лаб. 14 c++\Project1\Project4\test6.cpp(60,9): error C2040: +=: "int" отличается по уровням косвенного обращения от "int *"
+     1>D:\лабы\c++\лаб. 14 c++\Project1\Project4\test6.cpp(77,9): error C2297: "+=": недопустимо, поскольку тип правого операнда — "int *"
+     1>D:\лабы\c++\лаб. 14 c++\Project1\Project4\test6.cpp(77,9): error C2040: +=: "int" отличается по уровням косвенного обращения от "int *"
+     1>Сборка проекта "D:\лабы\c++\лаб. 14 c++\Project1\Project4\Project4.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\лабы\c++\лаб. 14 c++\Project1\Project4\Project4.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\лабы\c++\лаб. 14 c++\Project1\Project4\test6.cpp(39,35): error C7664: ">": упорядоченное сравнение указателя и целочисленного нуля ("int *" и "int")
+         D:\лабы\c++\лаб. 14 c++\Project1\Project4\test6.cpp(40,14): error C2297: "*=": недопустимо, поскольку тип правого операнда — "int *"
+         D:\лабы\c++\лаб. 14 c++\Project1\Project4\test6.cpp(60,9): error C2297: "+=": недопустимо, поскольку тип правого операнда — "int *"
+         D:\лабы\c++\лаб. 14 c++\Project1\Project4\test6.cpp(60,9): error C2040: +=: "int" отличается по уровням косвенного обращения от "int *"
+         D:\лабы\c++\лаб. 14 c++\Project1\Project4\test6.cpp(77,9): error C2297: "+=": недопустимо, поскольку тип правого операнда — "int *"
+         D:\лабы\c++\лаб. 14 c++\Project1\Project4\test6.cpp(77,9): error C2040: +=: "int" отличается по уровням косвенного обращения от "int *"
+
+    Предупреждений: 0
+    Ошибок: 6
+
+Прошло времени 00:00:00.85
