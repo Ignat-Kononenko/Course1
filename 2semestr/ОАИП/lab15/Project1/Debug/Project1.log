@@ -1,0 +1,34 @@
+﻿Сборка начата 06.05.2024 11:39:16.
+Уровень детализации журнала: Normal.     1>Проект "D:\labs\2semestrs\оаип\лаб.15\Project1\Project1\Project1.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+         Создание каталога "D:\labs\2semestrs\оаип\лаб.15\Project1\Debug\".
+         Создание каталога "Debug\Project1.tlog\".
+       InitializeBuildStatus:
+         Создание "Debug\Project1.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Debug\Project1.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt Source.cpp
+         Source.cpp
+     1>D:\labs\2semestrs\оаип\лаб.15\Project1\Project1\Source.cpp(152,6): warning C4101: buf: неиспользованная локальная переменная
+     1>D:\labs\2semestrs\оаип\лаб.15\Project1\Project1\Source.cpp(173,42): error C2572: sortMerge: переопределение аргумента по умолчанию: параметр 1
+         D:\labs\2semestrs\оаип\лаб.15\Project1\Project1\Source.cpp(10,6):
+          см. объявление "sortMerge"
+         
+     1>Сборка проекта "D:\labs\2semestrs\оаип\лаб.15\Project1\Project1\Project1.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\labs\2semestrs\оаип\лаб.15\Project1\Project1\Project1.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\labs\2semestrs\оаип\лаб.15\Project1\Project1\Source.cpp(152,6): warning C4101: buf: неиспользованная локальная переменная
+
+
+       "D:\labs\2semestrs\оаип\лаб.15\Project1\Project1\Project1.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\labs\2semestrs\оаип\лаб.15\Project1\Project1\Source.cpp(173,42): error C2572: sortMerge: переопределение аргумента по умолчанию: параметр 1
+
+    Предупреждений: 1
+    Ошибок: 1
+
+Прошло времени 00:00:01.16
