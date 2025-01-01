@@ -1,0 +1,3 @@
+﻿  guess.cpp
+D:\лабы\2 семестр\аисд\лаб.2\guess\guess\guess.cpp(9,71): warning C4101: result: неиспользованная локальная переменная
+  guess.vcxproj -> D:\лабы\2 семестр\аисд\лаб.2\guess\x64\Debug\guess.exe
