@@ -1,0 +1,58 @@
+ul{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png);
+    list-style: none;
+    background-repeat: repeat-y;
+   
+    background-size: 25px;
+    padding-left: 25px;
+    margin-bottom: 10px;
+}
+div{
+   
+    position:sticky;
+    top: 0px;
+    
+    height: 234px;
+    width:200px;
+    float: right;
+
+}
+img{
+    height: 234px;
+    width:200px;
+    
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+p{
+    text-align: justify;
+    text-indent: 25px;
+}
+.class1{
+    float: left;
+    height: 457px;
+    width:520px;
+
+}
+.class2{
+    margin: 0%;
+    text-indent: 0px;
+}
+.class3{
+    float: right;
+    height: 544px;
+    width:520px;
+
+}
+
+a{
+    display: block;
+}
+

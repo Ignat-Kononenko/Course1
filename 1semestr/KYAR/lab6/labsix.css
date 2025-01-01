@@ -1,0 +1,18 @@
+figcaption{
+   
+    text-align: center;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+}
+div{
+    height: 350px;
+    width: 350px;
+    display: inline-block;
+}
+a{
+    display: block;
+}
+/*<figcaption>задумался</figcaption>
