@@ -1,0 +1,39 @@
+﻿Сборка начата 02.11.2023 13:04:00.
+Уровень детализации журнала: Normal.     1>Проект "D:\лабы\лаб.6 ПИ\Project1\Project2\Project2.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "x64\Debug\Project2.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "x64\Debug\Project2.tlog\unsuccessfulbuild".
+       ClCompile:
+         D:\Новая папка (2)\VC\Tools\MSVC\14.37.32822\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Soure.cpp
+         Soure.cpp
+     1>D:\лабы\лаб.6 ПИ\Project1\Project2\Soure.cpp(11,15): warning C4838: Преобразование из "int" в "char" требует сужающего преобразования.
+     1>D:\лабы\лаб.6 ПИ\Project1\Project2\Soure.cpp(11,15): warning C4309: инициализация: усечение константного значения
+     1>D:\лабы\лаб.6 ПИ\Project1\Project2\Soure.cpp(19,6): warning C4311: приведение типов: усечение указателя из "char *" в "int"
+     1>D:\лабы\лаб.6 ПИ\Project1\Project2\Soure.cpp(19,6): warning C4302: приведение типов: усечение из "char *" к "int"
+     1>D:\лабы\лаб.6 ПИ\Project1\Project2\Soure.cpp(19,12): error C2446: >: нет преобразования "size_t (__cdecl *)(const char *)" в "int"
+       D:\лабы\лаб.6 ПИ\Project1\Project2\Soure.cpp(19,13): message : Не существует контекста, в котором такое преобразование возможно
+     1>D:\лабы\лаб.6 ПИ\Project1\Project2\Soure.cpp(20,18): error C2446: <: нет преобразования "char [1]" в "size_t (__cdecl *)(const char *)"
+       D:\лабы\лаб.6 ПИ\Project1\Project2\Soure.cpp(20,20): message : Не существует контекста, в котором такое преобразование возможно
+     1>D:\лабы\лаб.6 ПИ\Project1\Project2\Soure.cpp(36,14): error C2296: "+": недопустимо, поскольку тип левого операнда — "size_t (__cdecl *)(const char *)"
+     1>Сборка проекта "D:\лабы\лаб.6 ПИ\Project1\Project2\Project2.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\лабы\лаб.6 ПИ\Project1\Project2\Project2.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\лабы\лаб.6 ПИ\Project1\Project2\Soure.cpp(11,15): warning C4838: Преобразование из "int" в "char" требует сужающего преобразования.
+         D:\лабы\лаб.6 ПИ\Project1\Project2\Soure.cpp(11,15): warning C4309: инициализация: усечение константного значения
+         D:\лабы\лаб.6 ПИ\Project1\Project2\Soure.cpp(19,6): warning C4311: приведение типов: усечение указателя из "char *" в "int"
+         D:\лабы\лаб.6 ПИ\Project1\Project2\Soure.cpp(19,6): warning C4302: приведение типов: усечение из "char *" к "int"
+
+
+       "D:\лабы\лаб.6 ПИ\Project1\Project2\Project2.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\лабы\лаб.6 ПИ\Project1\Project2\Soure.cpp(19,12): error C2446: >: нет преобразования "size_t (__cdecl *)(const char *)" в "int"
+         D:\лабы\лаб.6 ПИ\Project1\Project2\Soure.cpp(20,18): error C2446: <: нет преобразования "char [1]" в "size_t (__cdecl *)(const char *)"
+         D:\лабы\лаб.6 ПИ\Project1\Project2\Soure.cpp(36,14): error C2296: "+": недопустимо, поскольку тип левого операнда — "size_t (__cdecl *)(const char *)"
+
+    Предупреждений: 4
+    Ошибок: 3
+
+Прошло времени 00:00:01.03
