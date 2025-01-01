@@ -1,0 +1,56 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(6,0.25fr);
+    grid-auto-rows: minmax(500px, auto);
+    
+    
+    grid-template-areas:
+     "y x x x x x" 
+     "y x x x x x"
+     "y x1 x1 x1 y1 y1"
+     "y x1 x1 x1 y1 y1"
+     "y x1 x1 x1 y1 y1"
+     "w w w w w w "
+    
+    ;
+    
+    gap: 1em;
+    
+}
+.header{
+    grid-area: x;
+    background-color: greenyellow;
+    border: 1px solid black;
+    font-size: 200px;
+}
+.nav{
+    grid-area: y;
+    background-color: greenyellow;
+    border: 1px solid black;
+    font-size: 200px;
+}
+.aside{
+    grid-area: y1;
+    background-color: greenyellow;
+    border: 1px solid black;
+    font-size: 200px;
+}
+.article{
+    grid-area: x1;
+    background-color: greenyellow;
+    border: 1px solid black;
+    font-size: 200px;
+}
+
+.footer{
+    grid-area: w;
+    background-color: greenyellow;
+    border: 1px solid black;
+    font-size: 200px;
+}
+
+
+/*<header></header>
+<aside></aside>
+<footer></footer>
+<nav></nav>

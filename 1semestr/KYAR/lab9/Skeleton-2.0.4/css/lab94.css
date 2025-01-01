@@ -1,0 +1,44 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(6,0.25fr);
+    grid-auto-rows: minmax(500px,auto);
+    grid-template-areas: 
+    "x x x x x x"
+    "y z z z w w"
+    "y z z z w w"
+    "y z z z w w"
+    "y z z z w w"
+    "a a a a a a"
+    ;
+    gap:1em;
+}
+.header{
+    grid-area: x;
+    background-color: grey;
+    color:aliceblue;
+    font-size: 200px;
+}
+.nav{
+    grid-area: y;
+    background-color: grey;
+    color:aliceblue;
+    font-size: 200px;
+}
+.article{
+    grid-area: z;
+    background-color: grey;
+    color:aliceblue;
+    font-size: 200px;
+}
+.aside{
+    grid-area: w;
+    background-color: grey;
+    color:aliceblue;
+    font-size: 200px;
+}
+.footer{
+    grid-area: a;
+    background-color: grey;
+    color:aliceblue;
+    font-size: 200px;
+}

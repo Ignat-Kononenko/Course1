@@ -1,0 +1,22 @@
+
+.grid {
+    display:grid;
+    grid-template-columns:0.25fr 10fr 10fr;
+    
+    gap: 1em;
+    }
+.grid>div{
+    background-color: aqua;
+    padding: 1px; ;
+    border: 1px solid black;
+}
+.first{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.second{
+    text-indent: 20px;
+    text-align: justify;
+  
+}
