@@ -1,0 +1,48 @@
+﻿Сборка начата 27.04.2024 0:07:23.
+Уровень детализации журнала: Normal.     1>Проект "D:\labs\2semestrs\аисд\лаб.6\Project1\Project2\Project2.vcxproj" в узле 2 (целевые объекты Rebuild).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+         Создание каталога "D:\labs\2semestrs\аисд\лаб.6\Project1\Debug\".
+         Создание каталога "Debug\Project2.tlog\".
+       InitializeBuildStatus:
+         Создание "Debug\Project2.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+         Обращение к "Debug\Project2.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt test.cpp
+         test.cpp
+     1>D:\labs\2semestrs\аисд\лаб.6\Project1\Project2\test.cpp(30,5): error C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>D:\labs\2semestrs\аисд\лаб.6\Project1\Project2\test.cpp(44,12): error C2440: return: невозможно преобразовать "const char [10]" в "char *"
+         D:\labs\2semestrs\аисд\лаб.6\Project1\Project2\test.cpp(44,12):
+         При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
+         
+     1>D:\labs\2semestrs\аисд\лаб.6\Project1\Project2\test.cpp(84,9): error C2664: "void insert(Item **,int,int,char *)": невозможно преобразовать аргумент 4 из "const char [12]" в "char *"
+         D:\labs\2semestrs\аисд\лаб.6\Project1\Project2\test.cpp(84,40):
+         При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
+         D:\labs\2semestrs\аисд\лаб.6\Project1\Project2\test.cpp(26,6):
+          см. объявление "insert"
+         D:\labs\2semestrs\аисд\лаб.6\Project1\Project2\test.cpp(84,9):
+         при попытке сопоставить список аргументов "(Item **, int, int, const char [12])"
+         
+     1>D:\labs\2semestrs\аисд\лаб.6\Project1\Project2\test.cpp(85,9): error C2664: "void insert(Item **,int,int,char *)": невозможно преобразовать аргумент 4 из "const char [12]" в "char *"
+         D:\labs\2semestrs\аисд\лаб.6\Project1\Project2\test.cpp(85,40):
+         При преобразовании из строкового литерала теряется квалификатор (см. /Zc:strictStrings)
+         D:\labs\2semestrs\аисд\лаб.6\Project1\Project2\test.cpp(26,6):
+          см. объявление "insert"
+         D:\labs\2semestrs\аисд\лаб.6\Project1\Project2\test.cpp(85,9):
+         при попытке сопоставить список аргументов "(Item **, int, int, const char [12])"
+         
+     1>Сборка проекта "D:\labs\2semestrs\аисд\лаб.6\Project1\Project2\Project2.vcxproj" завершена (целевые объекты Rebuild) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\labs\2semestrs\аисд\лаб.6\Project1\Project2\Project2.vcxproj" (целевой объект Rebuild ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\labs\2semestrs\аисд\лаб.6\Project1\Project2\test.cpp(30,5): error C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         D:\labs\2semestrs\аисд\лаб.6\Project1\Project2\test.cpp(44,12): error C2440: return: невозможно преобразовать "const char [10]" в "char *"
+         D:\labs\2semestrs\аисд\лаб.6\Project1\Project2\test.cpp(84,9): error C2664: "void insert(Item **,int,int,char *)": невозможно преобразовать аргумент 4 из "const char [12]" в "char *"
+         D:\labs\2semestrs\аисд\лаб.6\Project1\Project2\test.cpp(85,9): error C2664: "void insert(Item **,int,int,char *)": невозможно преобразовать аргумент 4 из "const char [12]" в "char *"
+
+    Предупреждений: 0
+    Ошибок: 4
+
+Прошло времени 00:00:00.37
