@@ -1,0 +1,6 @@
+﻿  main.cpp
+D:\лабы\2 семестр\кпо\лаб.3\calendar\calendar\main.cpp(12,124): warning C4101: quantity: неиспользованная локальная переменная
+D:\лабы\2 семестр\кпо\лаб.3\calendar\calendar\main.cpp(12,104): warning C4101: result_of_birthday: неиспользованная локальная переменная
+  month_and_day.cpp
+  Создание кода...
+  calendar.vcxproj -> D:\лабы\2 семестр\кпо\лаб.3\calendar\x64\Debug\calendar.exe
