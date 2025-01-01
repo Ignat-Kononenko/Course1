@@ -1,0 +1,12 @@
+.second{
+    transform: rotate3d(4, 1, 1, 316deg);
+}
+.cog{
+    transform: skew(251deg, 303deg);
+}
+.camera{
+    transform: scale(0.5);
+}
+.bubble{
+    overflow: visible;
+}

@@ -1,0 +1,10 @@
+.svg{
+    overflow:visible;
+    margin-top: 40px;
+    translate: 100%;
+}
+.text{
+    font-size: 36px;
+    fill:red;
+    text-align: center;
+}

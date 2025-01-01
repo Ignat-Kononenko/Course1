@@ -1,0 +1,48 @@
+.arg{
+    width: 16%;
+   margin: 0;
+}
+
+.arf{
+    
+    width: 98%;
+}
+.body{
+    padding: 50px;
+
+}
+.poligon{
+    width: 16%;
+   margin: 0;
+   stroke: none;
+   stroke-dashoffset:700;
+   /*определяет сдвиг массива dasharray относительно начального положения.*/
+   stroke-dasharray: 700;
+  /*Управляет видом пунктирной обводки*/
+}
+.poligon:hover{
+    stroke: brown;
+    stroke-width:4px;
+    transition: all .5s ease-in-out;
+    stroke-dashoffset:0 ;
+}
+.ellipse{
+    fill:green;
+}
+.ellipse:active{
+    fill: red;
+}
+
+.rect{
+    stroke: none;
+    stroke-width:6px;
+    stroke-dashoffset:700;
+    stroke-dasharray: 700;
+}
+.rect:hover{
+    stroke: blueviolet;
+    stroke-width:6px;
+    transition: all .9s ease-in-out;
+    stroke-dashoffset:0 ;
+    
+}

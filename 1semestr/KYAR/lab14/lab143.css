@@ -1,0 +1,77 @@
+.box{
+    display: flex;
+    justify-content: center;
+}
+.star{
+    
+    transform: translate3d(-12px,22px,0);
+    animation-name: star;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    
+}
+.div{
+    justify-content: center;
+}
+.toy2{
+   
+transform: translate3d(-70px,-270px,0);
+animation-name: toy;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-duration: 10s;
+}
+.toy1{
+  
+transform: translate3d(0,-360px,0);
+animation-name: toy;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-duration: 10s;
+}
+.toy{
+    
+transform: translate3d(75px,-150px,0);
+animation-name: toy;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-duration: 10s;
+}
+@keyframes toy{
+    0%{
+        fill:orange;
+    }
+    20%{
+        fill:blue;
+    }
+    40%{
+        fill:purple;
+    }
+    60%{
+        fill:yellow;
+    }
+    80%{
+        fill:greenyellow;
+    }
+    100%{
+        fill: red;
+    }
+}
+@keyframes star{
+    0%{
+        fill:orange;
+    }
+    25%{
+        fill:yellow;
+    }
+    50%{
+        fill: orange;
+    }
+    100%{
+        fill:yellow;
+    }
+}
+.rect{
+    transform: translate3d(0,-210px,0);
+}
