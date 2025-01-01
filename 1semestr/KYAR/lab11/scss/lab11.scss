@@ -1,0 +1,149 @@
+$height_1:70px;
+$height_2:40px;
+$red: red;
+$blue:blue;
+$font_size:17px;
+%border{
+    border: 2px solid black;
+}
+@mixin center{
+    text-align: center;
+    justify-content: center;
+}
+@function color($font_size){
+    @if($font_size>27px){
+        @return $red ;
+    }
+    @else{
+        @return $blue;
+    }
+}
+
+body{
+   .container{
+    @extend %border;
+    display: flex;
+    flex-direction: row;
+    
+    .class1{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfV3pnvPn4j2p-GR-HZaUMnrEt1wyRfrGFkur9yf5V&s);
+    background-size: 100% 100%;
+    width: 100%;
+        @extend %border;
+        gap: 2px;
+        flex:1.5;
+        margin:20px 100px 20px 5px;
+        height: $height_1;
+ }  
+ .class2{
+    display: flex;
+    @extend %border;
+    gap:2px;
+    flex:1;
+    margin:35px 5px 5px 5px;
+    height: $height_2;
+    @include center;
+    a{
+        margin-top:9px ;
+        color: burlywood;
+        text-decoration: dashed;
+    }
+ }
+   
+}
+.container4{
+    display: flex;
+   
+    margin-top: 1%;
+    
+    .container2{
+       
+        flex:2;
+    .container5{
+        @extend %border;
+    .class3{
+        @include center;
+        font-size: $font_size;
+        color: color($font_size);
+      
+     
+    }
+}
+.container6{
+    display: flex;
+    flex-direction: row;
+
+       
+        gap:25px;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    
+    .class4{
+        @extend %border;
+        font-size: $font_size;
+        text-align: justify;
+       
+    }
+    .class5{
+        @extend %border;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkkmAWQnGxiX_XhVLrPMPDx6HiOMhT62CNfnbRQyj28w&s);
+        height: 160px;
+        width: 100%;
+        background-size: 100% 100%;
+    }
+}
+}
+.container3{
+   
+   
+    margin-left: 6%;
+    flex:1;
+.container7{
+   
+         .class6{
+            @extend %border;
+        margin-bottom: 2%;
+         }
+}
+.container11{
+    
+    @extend %border;
+    margin-bottom: 2%;
+.class7{
+    @include center;
+    font-size: $font_size;
+}
+}
+.container8{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    margin-bottom: 1%;
+.class8{
+    @extend %border;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkkmAWQnGxiX_XhVLrPMPDx6HiOMhT62CNfnbRQyj28w&s);
+        height: 100px;
+        width: 100%;
+        background-size: 100% 100%;
+       
+}
+.class9{
+    border: 2px solid black;
+    text-align: justify;
+    
+}
+}
+}
+
+}
+
+.container111{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+   
+    margin-top: 1%;
+    min-height: 80px;
+}
+
+}
