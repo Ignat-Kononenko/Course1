@@ -1,0 +1,3 @@
+﻿  one.cpp
+D:\лабы\2 семестр\оаип\лаб.4\Project1\Project3\one.cpp(31,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  Project3.vcxproj -> D:\лабы\2 семестр\оаип\лаб.4\Project1\x64\Debug\Project3.exe
