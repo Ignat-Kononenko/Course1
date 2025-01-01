@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="lab12.css"?>
+<!DOCTYPE PENS[
+<!ENTITY NPEN "Ручки">
+<!ENTITY NPRICE "цена(в руб.)">
+
+<!ENTITY ball "Шариковые ручки">
+<!ENTITY FirstPRICE "0.54">
+
+<!ENTITY gel "Гелевые ручки">
+<!ENTITY SecondPRICE "1.23">
+
+<!ENTITY rollerball  "Ручки-роллеры">
+<!ENTITY ThirdPRICE "1">
+]>
+<PENS>
+<NAME>
+    <NPEN>&NPEN;</NPEN>
+    <NPRICE>&NPRICE;</NPRICE>
+    </NAME>
+<NAME>
+    <PEN>&ball;</PEN>
+    <PRISE>&FirstPRICE;</PRISE>
+</NAME>
+<NAME>
+    <PEN>&gel;</PEN>
+    <PRISE>&SecondPRICE;</PRISE>
+</NAME>
+<NAME>
+    <PEN>&rollerball;</PEN>
+    <PRISE>&ThirdPRICE;</PRISE>
+</NAME>
+
+
+
+</PENS>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs ="http://www.w3.org/2001/XMLSchema">
+<xs:element name="PENS">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="NAME">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="NPEN" type="xs:string"/>
+                        <xs:element name="NPRICE" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="NAME">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="PEN" type="xs:string"/>
+                        <xs:element name="PRICE" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="NAME">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="PEN" type="xs:string"/>
+                        <xs:element name="PRICE" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="NAME">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="PEN" type="xs:string"/>
+                        <xs:element name="PRICE" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+</xs:schema>

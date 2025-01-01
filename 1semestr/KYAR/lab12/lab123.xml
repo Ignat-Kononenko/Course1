@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/css" href="lab12.css"?>
+<PENS>
+<NAME>
+    <NPEN>Ручки</NPEN>
+    <NPRICE>цена(в руб.)</NPRICE>
+    </NAME>
+<NAME>
+    <PEN>Шариковые ручки</PEN>
+    <PRICE>0,54</PRICE>
+</NAME>
+<NAME>
+    <PEN>Гелевые ручки</PEN>
+    <PRICE>1,23</PRICE>
+</NAME>
+<NAME>
+    <PEN>Ручки-роллеры</PEN>
+    <PRICE>2,12</PRICE>
+</NAME>
+</PENS>
