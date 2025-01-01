@@ -1,0 +1,458 @@
+.class1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform: scale(0.5);
+}
+.class2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform:rotate(45deg);
+}
+div{
+    display: inline-block;
+    margin: 20px ;
+}
+.class3{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+   transform: skew(25deg);
+}
+.class4{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+   
+}
+.class4:hover{
+    transform:rotate(-20deg);
+}
+.class5{
+    width: 100px;
+    height: 130px;
+    background-color: yellow;
+    border: 2px solid black;
+    font-size: 14px;
+    text-align: center;
+    transform: perspective(400px) rotateX(49deg);
+    transform-origin:bottom center;
+}
+.class6{
+    width: 100px;
+    height: 130px;
+    background-color: yellow;
+    border: 2px solid black;
+    font-size: 14px;
+    text-align: center;
+    transform: perspective(400px) rotateY(26deg);
+    transform-origin:left center;
+}
+.class7{
+    width: 100px;
+    height: 130px;
+    background-color: yellow;
+    border: 2px solid black;
+    font-size: 14px;
+    text-align: center;
+    transform: perspective(400px) rotateY(-26deg);
+    transform-origin:right center;
+}
+.class8{
+   height: 20px;
+   width: 85px;
+   
+}
+.class8:hover{
+    background-color: black;
+    transition:background-color 1.5s linear 0.1s ;
+    color:white;
+}
+.class8:focus{
+    background-color: black;
+    transition:background-color 1.5s linear 0.1s ;
+    color:white;
+}
+.class9{
+    height: 20px;
+   width: 85px;
+}
+.class9:hover{
+    border: 2px solid red ;
+    background-color: white;
+    box-shadow: 0 0 0 2px yellow;
+}
+.class10{
+    height: 20px;
+   width: 85px;
+}
+.class10:hover{
+    border-top: 2px solid green;
+    border-bottom: 2px solid green;
+    border-left:0;
+    border-right:0;
+    background-color: white;
+    
+}
+.class11{
+    height: 20px;
+   width: 85px;
+}
+.class11:hover{
+    border-left: 2px solid blue ;
+    border-right: 2px solid blue ;
+    border-top:0;
+    border-bottom:0;
+    background-color: white;
+    
+}
+.class12{
+    height: 20px;
+   width: 85px;
+}
+.class12:hover{
+    background: radial-gradient( yellow  ,pink 9px,purple 24px,aqua 41px);
+    
+    border:0;
+}
+@keyframes myanimation{
+    0% {
+        transform: perspective(400px) rotateY(26deg);
+        transform-origin:left center;
+        
+        
+        
+    }
+    50%{
+        
+        transform:translate(80px);
+        
+    }
+    100%{
+        transform:translate(0px);
+    }
+    
+}
+@keyframes myanimat{
+    0% {
+        transform: perspective(400px) rotateY(26deg);
+        transform-origin:left center;
+        
+        
+       
+    }
+    50%{
+        transform:translate(0px);
+    }
+    100%{
+        transform:translate(0px);
+        filter: blur(10px);
+    }
+}
+@keyframes myanim{
+    0% {
+        transform: perspective(400px) rotateY(26deg);
+        transform-origin:left center;
+        
+        
+        
+    }
+    50%{
+        transform:translate(-80px);
+        
+    }
+    100%{
+        transform:translate(0px);
+        filter: grayscale(1);
+    }
+}
+@keyframes anim{
+    0% {
+        
+        transform: perspective(400px) rotateY(26deg);
+        transform-origin:left center;
+        
+    }
+    
+    50%{ 
+        transform:translate(-160px);
+        
+        
+    }
+
+    100%    
+    {
+        transform:translate(0px);
+        filter: invert(1);
+}
+}
+.class13{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    margin: 2px;
+    animation-name: myanimation;
+    animation-duration: 15s;
+    background-color: white;
+    writing-mode:vertical-lr ;
+    animation-iteration-count: infinite;
+}
+.class14{
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+    border: 2px solid black;
+    margin: 2px;
+    animation-name: myanimat;
+    animation-duration: 15s;
+    background-color: white;
+    writing-mode:vertical-lr ;
+    animation-iteration-count: infinite;
+}
+.class15{
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+    border: 2px solid black;
+    margin: 2px;
+    animation-name: myanim;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    background-color: red;
+    writing-mode:vertical-lr ;
+}
+.class16{
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+    border: 2px solid black;
+    margin: 2px;
+    animation-iteration-count: infinite;
+    
+    animation-name: anim;
+    animation-duration: 15s;
+    background-color: white;
+    writing-mode:vertical-lr ;
+}
+@keyframes ain{
+0%{
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNsKjXisU4M4s8U2kgtmGhk-_KDrQCLiyJQCZUYuLM&s);
+    background-size: 100px;
+}
+25%{
+    background-image:url(https://img.freepik.com/free-photo/a-cupcake-with-a-strawberry-on-top-and-a-strawberry-on-the-top_1340-35087.jpg?size=626&ext=jpg);
+background-size: 100px;
+}
+50%{
+   
+    background-image:url(https://img.freepik.com/free-photo/a-picture-of-fireworks-with-a-road-in-the-background_1340-43363.jpg?size=626&ext=jpg);
+    background-size: 100px;
+}
+75%{
+    background-image:url(https://img.freepik.com/free-photo/landscape-of-morning-fog-and-mountains-with-hot-air-balloons-at-sunrise_335224-794.jpg?size=626&ext=jpg);
+    background-size: 100px;
+}
+100%{
+    
+    background-image:url(https://img.freepik.com/free-photo/beautiful-view-of-a-night-winter-landscape-with-aurora-borealis-and-the-moon-tromso_181624-54255.jpg?size=626&ext=jpg);
+    background-size: 100px;
+}
+
+}
+.class17{
+width: 100px;
+height: 100px;
+
+animation-name: ain;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-duration: 5s;
+}
+.class18{
+height: 100px;
+background-color: red;
+animation-name: eight;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-duration: 3s;
+}
+@keyframes eight{
+    0%{
+        transform: translate(0px);
+    }
+    50%{
+        transform: translate(200px);
+    }
+    100%{
+        transform: translate(0px);
+    }
+}
+.class19{
+    width: 100px;
+    height: 100px;
+    
+    background-color: orange;
+    animation-name: nine;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+    }
+ @keyframes nine{
+        0%{
+            transform: translate(0px);
+        }
+        25%{
+            transform: scale(0.3);
+        }
+        50%{
+            transform: translate(200px);
+        }
+        75%{
+            transform: scale(1.3);
+        }
+        100%{
+            transform: translate(0px);
+        }
+    }
+.class20{
+        width: 100px;
+        height: 100px;
+        
+        background-color: yellow;
+        animation-name: ten;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-duration: 3s;
+        }
+@keyframes ten{
+            0%{
+                transform: translate(0px);
+            }
+            25%{
+                transform: translate(11111px)
+            }
+            50%{
+                transform: translateY(11111px);
+            }
+            75%{
+                transform: translate(-11111px);
+            }
+            100%{
+                transform: translate(0px);
+            }
+        }
+.class21{
+            width: 100px;
+            height: 100px;
+            
+            background-color: green;
+            animation-name: eleven;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-duration: 3s;
+            }
+            @keyframes eleven{
+                0%{
+                    transform: translate(0px);
+                }
+                50%{
+                    transform: translateY(50px);
+                }
+                100%{
+                    transform: translate(0px);
+                }
+            }
+.class22{
+             width: 100px;
+             height: 100px;
+             position: relative;
+             background-color: blue;
+             animation-name: twelve;
+             animation-iteration-count: infinite;
+             animation-timing-function: linear;
+             animation-duration: 3s;
+                         }
+@keyframes twelve{
+ 0%{
+       left:0;
+       top:0;
+   }
+ 25%{
+        left:200px;
+        top: 0;
+    }
+ 50%{
+        left: 200px;
+        top: 200px;
+    }
+75%{
+        left:0;
+        top: 200px;
+    }
+100%{
+        left:0;
+        top: 0;
+     }
+ }
+ .class23{
+    width: 300px;
+    height: 300px;
+    border: 3px dotted black;
+    text-align: justify;
+    margin-top: 250px;
+    animation-name: goal;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    }
+ @keyframes goal{
+        0%{
+            color: aqua;
+        }
+        50%{
+            color: rebeccapurple;
+        }
+        90%{
+            color: red;
+        }
+        100%{
+            color: aqua;
+        }
+    }
+h1{
+    text-align: center;
+    animation-name: h;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+
+}
+@keyframes h{
+    0%{
+        color:red;
+    }
+        
+    80%{
+        
+        filter: opacity(0);
+       
+    }
+    100%{
+        color:red;
+        
+        
+    }
+}
+
+/*
+
+
+transform: rotateZ(-6deg);
+transform-style: preserve-3d;
+
+
+transform-origin:left bottom;
+perspective: 800px;
+perspective: 600px;
+transform: perspective(400px);
