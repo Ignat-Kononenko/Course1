@@ -1,0 +1,80 @@
+
+
+
+nav  li ul  {
+    display: block;
+    visibility:hidden  ;
+    
+}
+nav  li:hover ul {
+    display: block;
+    visibility:visible ;
+    translate: -51px 22px;
+}
+ul{
+    
+  
+    
+    background-size: 25px;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    
+
+}
+
+nav ul li {
+    width: 259px;
+    height: 40px;
+    border: 1px solid black;
+    display: inline;
+    float: left;
+    margin-left: 25px;
+    position: relative;
+    text-align: center;
+  
+}
+
+
+.class1{
+    background-image: url(facultet1.png);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    
+}
+.class1:hover{
+    background-image: url(facultetfit.png);
+    background-size: 40px;
+    background-repeat: no-repeat;
+}
+.class2{
+    background-image: url(facultet1.png);
+    background-size: 40px;
+    background-repeat: no-repeat;
+}
+.class2:hover{
+    background-image: url(facul.png);
+    background-size: 40px;
+    background-repeat: no-repeat;
+}
+.class3{
+    background-image: url(facultet1.png);
+    background-size: 40px;
+    background-repeat: no-repeat;
+}
+.class3:hover{
+    background-image: url(facultet2.png);
+    background-size: 40px;
+    background-repeat: no-repeat;
+}
+.class4{
+    background-image: url(facultet1.png);
+    background-size: 40px;
+    background-repeat: no-repeat;
+}
+a{ text-decoration: none;
+    color:black
+}
+a:hover{
+    text-decoration: none;
+    color: cadetblue;
+}

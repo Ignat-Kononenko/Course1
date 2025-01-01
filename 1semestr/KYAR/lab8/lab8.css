@@ -1,0 +1,29 @@
+.nav li{
+    width: 100px;
+    background-color: yellow;
+    border-top: 2px solid green;
+    border-bottom: 2px solid green;
+    border-left: 2px solid green;
+    height: 34px;
+    text-align: center;
+    padding-top: 10px;
+    float: left;
+    display: inline;
+    translate: 380px;
+
+    
+}
+nav li:last-child{
+    border-right: 2px solid green;
+}
+a{
+    display: inline-block;
+    color: green;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+
+h1{
+    text-align: center;
+}

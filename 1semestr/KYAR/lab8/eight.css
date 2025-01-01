@@ -1,0 +1,40 @@
+aside{
+    width: 500px;
+    background-color: antiquewhite;
+    float: right;
+}
+h1{
+    text-align: center;
+}
+.class1:link{
+color: red;
+text-decoration: none;
+}
+.class2:visited{
+    color: #8B0000;
+}
+.class3:hover{
+    color: green;
+}
+.class3:focus{
+    color: green;
+}
+.class4:active{
+    color: rgb(184, 134, 11);
+}
+article{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    margin-right: 500px;
+}
+ul.nav{
+    list-style: none;
+}
+ul.nav a{
+    display: block;
+    text-decoration:  none;
+}
+
+
+
