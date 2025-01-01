@@ -1,0 +1,5 @@
+﻿  Source.cpp
+D:\лабы\2 семестр\оаип\лаб.6\Project1\Project1\Source.cpp(186,16): warning C4244: return: преобразование "int" в "float", возможна потеря данных
+D:\лабы\2 семестр\оаип\лаб.6\Project1\Project1\Source.cpp(202,20): warning C4244: return: преобразование "int" в "float", возможна потеря данных
+D:\лабы\2 семестр\оаип\лаб.6\Project1\Project1\Source.cpp(258,10): warning C4101: buf: неиспользованная локальная переменная
+  Project1.vcxproj -> D:\лабы\2 семестр\оаип\лаб.6\Project1\x64\Debug\Project1.exe
