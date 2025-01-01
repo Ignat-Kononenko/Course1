@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/xsl" href="lab132.xsl"?>
+<school>
+<NAME>
+    <name>Александр</name>
+    <grade>9</grade>
+</NAME>
+<NAME>
+    <name>Павел</name>
+    <grade>5</grade>
+</NAME>
+<NAME>
+    <name>Мария</name>
+    <grade>3</grade>
+</NAME>
+</school>
