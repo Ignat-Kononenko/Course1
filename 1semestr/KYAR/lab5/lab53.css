@@ -1,0 +1,91 @@
+
+td{
+    border: 2px solid indigo;
+    color: white;
+    
+}
+.cl1{
+    background-color: navy;
+    box-shadow: 0 0 4px white;
+    color: white;
+    border-collapse: collapse;
+   margin-bottom: 10px;
+
+  
+}
+
+.cl2{
+    background-color: rgb(128, 0, 92);
+    color: rgba(255,255,255,1);
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, 75);
+   
+}
+  
+.class1{
+    text-align: center;
+}
+.label{
+display: inline-block;
+
+vertical-align: top;
+text-align: right;
+margin-right: 15px;
+color:white;
+}
+
+
+.userform{
+    width: 350px;
+    background-color: indigo;
+    
+}
+span{
+    text-align: center;
+    
+    color:white;
+    font-size: 17px;
+}
+.cl3{
+    position: absolute;
+    left: 9%;
+}
+input:focus{
+    background-color: green;
+}
+/*    <div>
+<table>
+<tr>
+    <td class="class1" colspan="2">Регистрация постоянного клиента</td><td></td>
+</tr>
+<tr>
+    <td><label for="fio">Фамилия</label></td><td><input class="cl2" id="fio" type="text" ></td>
+</tr>
+<tr>
+    <td><label for="name">Имя</label></td><td><input class="cl2" id="name" type="text" ></td>
+</tr>
+<tr>
+    <td><label for="secondname">Отчество</label></td><td><input class="cl2" id="secondname" type="text" ></td>
+</tr>
+<tr>
+    <td><label for="age">Возраст</label></td><td><input class="cl2" id="age" type="number"></td>
+</tr>
+<tr>
+    <td><label for="s">Пол</label></td><td><input  name="s" type="radio" >Мужской<input  type="radio"  name="s">Женский</td>
+</tr>
+<tr>
+    <td><label for="email">Email</label></td><td><input class="cl2" id="email" type="email" ></td>
+</tr>
+<tr>
+    <td><label for="country">Страна проживания</label></td><td><input class="cl2" id="country" type="text" ></td>
+</tr>
+<tr>
+    <td><label for="from">Откуда вы узнали о нас?</label></td><td><input id="from" type="tel" ></td>
+</tr>
+<tr>
+    <td><label for="date">Дата заполнения</label></td><td><input id="date" type="date" ></td>
+</tr>
+<tr>
+    <td><input class="cl1" type="submit"  value="Регистрация"></td><td><input  class="cl1" type="reset" value="Отмена" ></td>
+</tr>
+</table>
+</div>
