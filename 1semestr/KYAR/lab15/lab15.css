@@ -1,0 +1,46 @@
+.grid{
+    display: flex;
+    justify-content: space-around;
+height: 500px;
+width: 100%;
+
+}
+.one{
+   
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    background-image: url("https://www.belarus.by/dadvimages/000410_622134.jpg");
+    background-size: 100% 100%;
+}
+.two{
+    
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    background-image: url("https://img.freepik.com/premium-photo/wooden-bridge-in-blue-lake_104337-8600.jpg");
+    background-size: 100% 100%;
+
+}
+.three{
+    
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkkmAWQnGxiX_XhVLrPMPDx6HiOMhT62CNfnbRQyj28w&s");
+    background-size: 100% 100%;
+}
+.four{
+  
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    background-image: url("https://s9.travelask.ru/system/images/files/000/336/892/wysiwyg_jpg/10452canada-landscape-map-wallpaper-3.jpg?1502197579");
+    background-size: 100% 100%;
+    
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}

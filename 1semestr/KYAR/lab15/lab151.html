@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lab151.css" media="all">
+    <title>Document</title>
+</head>
+<body>
+<div>
+<form class="userform">
+    <p>
+    <p class="head">Регистрация постоянного клиента</p>
+    </p>
+    <p>
+        <label for="surname" class="" >Фамилия</label>
+        <input type="text" name="fio"  minlength="2"  maxlength="20" class="label" id="surname" required>
+    </p>
+    <p>
+        <label for="name" class="">Имя</label>
+        <input type="text" name="fio"  minlength="2"  maxlength="20" class="label" id="name" required>
+    </p>
+    <p>
+        <label for="secondName" class="">Отчество</label>
+        <input type="text" name="fio"  minlength="2"  maxlength="20" class="label" id="secondName" required>
+    </p>
+    <p>
+        <label for="age" class="">Возраст</label>
+        <input type="number" name="fio" class="label" id="age" min="0" max="100" required>
+    </p>
+    <p>
+        <label for="checkbox" class="">Пол
+            <span required class="label" ><label><input name="checkbox" id="s"  type="radio">Мужской </label>
+            <label><input name="checkbox"  id="ss"  type="radio">Женский </label></span> 
+        </label>
+    </p>
+    <p>
+        <label for="email" >Email</label>
+        <input type="email" name="email" class="label" id="email" required>
+    </p>
+    <p>
+        <label for="country">Страна проживания</label>
+        <input type="text" name="country" class="label" id="country" required>
+    </p>
+    <p>
+        <label for="knowledge">Откуда Вы узнали <br>о нас?</label>
+        <select id="knowledge"  class="label" required><option >выберите вариант</option> <option>в Интернете</option> <option>посоветовали друзья/знакомые</option></select> 
+    </p>
+    <p>
+        <label for="date">Дата заполнения</label>
+        <input type="date" class="label" name="date" min="2023-12-17" max="2024-12-17" id="date" required>
+    </p>
+    <p>
+       <label class="registration"> <input type="submit" id ="registration" value="Регистрация"> <input type="reset" value="Отмена"></label>
+    </p>
+</div>
+
+</form>
+
+<footer></footer>
+</body>
+<script src="lab151.js"></script>
+</html>

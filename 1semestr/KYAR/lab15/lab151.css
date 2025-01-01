@@ -1,0 +1,29 @@
+.label{
+   position: absolute;
+   left:48%;
+}
+.userform{
+    
+    width: 390px;
+    border: 2px solid black;
+    background-color:hsla(186, 93%, 84%, 0.967);
+}
+div{
+    display: grid;
+    justify-content: center;
+   
+    
+}
+.knowledge{
+    position:relative;
+}
+.registration{
+    margin-left: 150px;
+}
+.head{
+    text-align: center;
+    font-size: 19px;
+}
+label{
+    padding-left:5px ;
+}
