@@ -1,0 +1,46 @@
+
+
+@media(max-width:500px) {
+    .burger{
+       
+        position: absolute;
+        width: 30px;
+        text-align: center;
+        right: 20px;
+        transform:translateY(-20px);
+    }
+    nav ul{
+        margin: 0;
+        padding:0;
+        list-style-type: none;
+    }
+    .burger::before{
+    content: "\2261";
+    }
+    .burger-checkbox:checked+.burger::before{
+        content: "\00D7";
+        
+    }
+    nav{
+        display: none;
+    }
+    .burger-checkbox:checked + .burger +nav{
+      
+        display: block;
+        
+    }
+}
+#burger, .burger-checkbox{
+    display: none;
+}
+.class1{
+    border: 2px solid black;
+    text-align: center;
+}
+li{
+    border: 1px solid black;
+   
+}
+nav{
+    margin-top: 2%;
+}

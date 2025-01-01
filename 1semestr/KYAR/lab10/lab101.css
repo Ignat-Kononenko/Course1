@@ -1,0 +1,60 @@
+.container{
+    display: flexbox;
+    }
+.div1 { 
+    display:flex;
+    border: 2px solid black;
+    height: 65px;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px; 
+    /*задаем главную ось(горизонталь)*/
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+   
+    gap:10px;
+    height: fit-content;
+    
+}
+.div2 { 
+    display:flex;
+    border: 2px solid black;
+    margin-top: 20px;
+    flex: 1;
+   align-items: center;
+   justify-content: center;
+   flex-shrink: 2;
+    
+}
+.div3 { 
+    display:flex;
+    border: 2px solid black;
+
+    margin-top: 20px;
+    flex: 2;  
+}
+.div4 { 
+    display:flex;
+    border: 2px solid black;
+    margin-top: 20px;
+    flex: 1;
+}
+iframe{
+    display:flex;
+}
+audio{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+@media(max-width:945px) {
+    .container2{
+    display: flexbox;
+    flex-direction:column ;
+    }
+    
+}
+

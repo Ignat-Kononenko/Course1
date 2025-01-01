@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+}
+@import url(lab103.css) (min-width:481px) and (max-width:1279px);
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+img{
+    width: 100%;
+}
+@media(max-width:1280px) {
+    .container{
+        width: 100%;
+    }
+    figure{
+       
+     width: 100%;
+       
+
+    }
+    img{
+        width: 100%;
+    }
+    
+}
+
+figure{
+    text-align: center;
+}
+
+
+@media(max-width:480px)  {
+   figure{
+    color: red;
+   }
+}
