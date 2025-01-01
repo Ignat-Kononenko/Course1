@@ -1,0 +1,4 @@
+﻿  six.cpp
+D:\лабы\2 семестр\оаип\лаб.1\Project1\Project1\six.cpp(14,16): warning C4305: инициализация: усечение из "double" в "float"
+D:\лабы\2 семестр\оаип\лаб.1\Project1\Project1\six.cpp(51,11): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+  Project1.vcxproj -> D:\лабы\2 семестр\оаип\лаб.1\Project1\x64\Debug\Project1.exe
