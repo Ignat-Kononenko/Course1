@@ -1,0 +1,25 @@
+.class1{
+    color: red;
+    font-family:'Times New Roman';
+    font-size: 18pt;
+}
+.class2{
+    color: yellow;
+    font-family:'Times New Roman';
+    font-size: 20pt;
+}
+.class3{
+    color: green;
+    font-family:'Times New Roman';
+    font-size: 22pt;
+}
+h1, h2, h3{
+    color: purple;
+    font-family: monospace;
+}
+td{
+    color:brown;
+}
+td a{
+    color:brown;
+}

@@ -1,0 +1,18 @@
+h1+p{
+    color: yellow;
+}
+h2~p{
+    color: blue;
+}
+h1,h2{
+    color: greenyellow;
+}
+*{
+    background-color: bisque;
+}
+.class1{
+    font-family: tahoma;
+}
+span{
+    text-decoration:overline;
+}
